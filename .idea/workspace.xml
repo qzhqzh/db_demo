@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="590fc1da-6134-4d58-a8fd-9d61c26f4140" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_demo/envs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_demo/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_demo/funs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_demo/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/software/cal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/cal-primer-result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/cal-primer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/search-primer-result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/search-primer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_demo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_demo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_demo/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +43,7 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="7" />
           <entry key="md" value="4" />
+          <entry key="png" value="7" />
           <entry key="py" value="21" />
         </counts>
       </usages-collector>
@@ -70,6 +51,7 @@
         <counts>
           <entry key="Git file" value="1" />
           <entry key="HTML" value="7" />
+          <entry key="Image" value="7" />
           <entry key="Markdown" value="4" />
           <entry key="Python" value="21" />
         </counts>
@@ -79,8 +61,9 @@
           <entry key="dummy" value="1" />
           <entry key="gitignore" value="5" />
           <entry key="html" value="647" />
-          <entry key="md" value="2611" />
+          <entry key="md" value="2685" />
           <entry key="py" value="2095" />
+          <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -88,8 +71,8 @@
           <entry key="Git file" value="5" />
           <entry key="HTML" value="650" />
           <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="2607" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Markdown" value="2681" />
+          <entry key="PLAIN_TEXT" value="28" />
           <entry key="Python" value="2095" />
         </counts>
       </usages-collector>
@@ -132,57 +115,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#22#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_demo/funs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <marker date="1573387478534" expanded="true" signature="60:65" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/software/cal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/cal-primer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="24" />
-              <folding>
-                <element signature="n#style#0;n#p#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="205">
-                <caret line="195" column="5" selection-start-line="195" selection-start-column="5" selection-end-line="195" selection-end-column="5" />
+              <first_editor relative-caret-position="145">
+                <caret line="208" column="45" selection-start-line="208" selection-start-column="45" selection-end-line="208" selection-end-column="45" />
               </first_editor>
               <second_editor />
             </state>
@@ -190,10 +127,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/storage/temp/cal_primer_fail.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/storage/temp/cal_primer_success.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/storage/temp/search_primer_fail.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/storage/temp/search_primer_success.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="50" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -252,8 +209,8 @@
         <option value="$PROJECT_DIR$/db_demo/settings.py" />
         <option value="$PROJECT_DIR$/db_demo/views.py" />
         <option value="$PROJECT_DIR$/db_demo/urls.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/core/admin.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -306,6 +263,17 @@
               <item name="db_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="db_demo" type="462c0819:PsiDirectoryNode" />
               <item name="db_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="db_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="db_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -363,13 +331,20 @@
       <option name="presentableId" value="Default" />
       <updated>1573047227026</updated>
     </task>
+    <task id="LOCAL-00001" summary="一个几乎完整的 db_demo">
+      <created>1573390329305</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573390329305</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="389" y="13" width="1449" height="1006" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22618182" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1670247" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -383,7 +358,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3292232" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.40443897" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3809524" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3292232" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -398,6 +373,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="一个几乎完整的 db_demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="一个几乎完整的 db_demo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -577,6 +556,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db_demo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -587,25 +576,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/storage/temp/index.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/temp/admin.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/temp/search_primer_success.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/temp/search_primer_fail.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/temp/cal_primer_success.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="205">
-            <caret line="195" column="5" selection-start-line="195" selection-start-column="5" selection-end-line="195" selection-end-column="5" />
+          <first_editor relative-caret-position="145">
+            <caret line="208" column="45" selection-start-line="208" selection-start-column="45" selection-end-line="208" selection-end-column="45" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/storage/temp/cal_primer_fail.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
