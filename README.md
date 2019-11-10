@@ -3,24 +3,42 @@
 > this is a demo about database.
 
 
-## init
+## quick start
 
-```
+* step 1:
+```angularjs
 git clone git@github.com:qzhqzh/db_demo.git
 cd db_demo
 pip install -r requirement.txt
+cp db_demo/env.bak.py db_demo/env.py
 ```
 
-## start
+* step 2:
+安装 postgresSQL 数据库，并依次执行文档中的 创建用户和数据库 操作
 
-dev
-```angular2html
+* step 3:
+```angularjs
+python manage.py makemigrations
+python manage.py migrate
 python manage.py runserver 0.0.0.0:8080
 ```
 
----
+* step 4:
+首页：127.0.0.1:8080/db_demo
+后台：127.0.0.1:8080/admin
+接口：127.0.0.1:8080/core/primer
+检索：127.0.0.1:8080/search-primer
+计算：127.0.0.1:8080/cal-primer
+
+* step 5
+进入接口页面，录入一条引物即可检索
+
+
 
 ## 设置
+
+<span id="jump">postgresSQL</span>
+
 ### 数据库选择
 默认数据库为 sqlite3，修改数据库为 postgresSQL数据库示例
 `db_demo\setting.py`
@@ -227,3 +245,4 @@ index页面可以继承 layout 页面的主体框架，以至于导航栏和底�
 1. 后台执行计算程序不能短时间完成。思路：生成任务id，记录pid和结果文件，定时查询pid，当pid不存在的时候，更新任务状态为完成，用户通过任务id来查询任务状态以及结果。
 2. 使用 apache 代理，配置相应日志系统
 3. 构建 docker 镜像，通过 docker 方式部署
+4. 增加批量向数据库中存入引物数据命令
