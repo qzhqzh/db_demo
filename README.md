@@ -66,6 +66,7 @@ migration: `python manage.py makemigrations`
 migrate: `python manage.py migrate`
 创建管理员: `python manage.py createsuperuser`
 登录后台查看: 例如 [127.0.0.1:8080/admin ](127.0.0.1:8080/admin)
+
 ---
 
 ## app
@@ -201,11 +202,22 @@ index页面可以继承 layout 页面的主体框架，以至于导航栏和底�
 
 生成环境可以设置 db_demo/setting.py 中 DEBUG = false
 
+首页
 ![首页](storage/temp/index.png)
+
+后台管理页面
 ![后台管理页面](storage/temp/admin.png)
+
+检索引物成功
 ![search primer success](storage/temp/search_primer_success.png)
+
+检索引物失败
 ![search primer fail](storage/temp/search_primer_fail.png)
+
+计算引物成功
 ![cal primer success](storage/temp/cal_primer_success.png)
+
+计算引物失败
 ![cal primer fail](storage/temp/cal_primer_fail.png)
 
 
