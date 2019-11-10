@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block content %}
+<p> 查询 primer: </p>
+
+<form action="search-primer">
+    <label for="user">用户: </label>
+    <input id="user" name="user"/>
+    <button type="submit">Submit</button>
+</form>
+{% block primer_result %}{% endblock %}
+<p style="background-color: red; color: white">{{error_msg}}</p>
+
+{% endblock %}

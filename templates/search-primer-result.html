@@ -1,0 +1,29 @@
+{% extends 'search-primer.html' %}
+
+{% load static %}
+{% block primer_result %}
+
+<style>
+.table-b table td{border:1px solid #F00}
+/* css注释：只对table td标签设置红色边框样式 */
+</style>
+
+<table >
+    <thead>
+        <tr>
+            <td>正向引物</td>
+            <td>反向引物</td>
+        </tr>
+    </thead>
+
+    {% for i in primer_data %}
+    <tbody>
+        <tr>
+            <td style="border:1px solid #F00">{{ i.fp }}</td>
+            <td style="border:1px solid #F00">{{ i.rp }}</td>
+        </tr>
+    </tbody>
+    {% endfor %}
+</table>
+
+{% endblock %}

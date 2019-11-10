@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+from db_demo import envs
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -37,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'core'
 ]
 
 MIDDLEWARE = [
@@ -54,7 +57,7 @@ ROOT_URLCONF = 'db_demo.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -75,8 +78,13 @@ WSGI_APPLICATION = 'db_demo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': envs.DATABASE_NAME,
+        'ENGINE': 'django.db.backends.postgresql',
+        'USER': envs.DATABASE_USER,
+        'PASSWORD': envs.DATABASE_PASSWORD,
+        'HOST': envs.DATABASE_HOST if envs.DATABASE_HOST else '127.0.0.1',
+        'PORT': envs.DATABASE_PORT if envs.DATABASE_PORT else '5432',
+        'ATOMIC_REQUESTS': True,
     }
 }
 
@@ -118,3 +126,18 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+# rest_framework setting
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 20,
+    'DEFAULT_FILTER_BACKENDS': (
+        'rest_framework.filters.SearchFilter',
+        'django_filters.rest_framework.DjangoFilterBackend',),
+    'EXCEPTION_HANDLER': 'grandbox.funcs.custom_exception_handler',
+}
+
+
+# project dir
+project_dir = os.path.dirname(os.path.dirname(__file__))
