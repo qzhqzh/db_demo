@@ -1,0 +1,7 @@
+
+# postgresSQL DATABASE
+DATABASE_NAME = 'db_demo'
+DATABASE_USER = 'db_demo'
+DATABASE_PASSWORD = 'db_demo'
+DATABASE_HOST = '127.0.0.1'
+DATABASE_PORT = '5432'
