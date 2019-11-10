@@ -1,4 +1,5 @@
 .idea/
+.idea/*
 core/__pycache__/
 core/migrations/*
 core/migrations/__pycache__/
